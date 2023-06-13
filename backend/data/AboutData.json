@@ -1,0 +1,24 @@
+[
+    {
+        "title": "SUCCESS",
+        "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor mauris nec velit venenatis, nec sagittis leo molestie. Pellentesque neque massa, tincidunt sit amet sodales quis, ullamcorper at quam. Proin et luctus tortor. Vestibulum pretium condimentum tempor. Nulla pharetra tempus arcu, ut rutrum nisi. Quisque mollis justo vitae nisl tempor, sit amet molestie magna viverra. Donec fringilla leo sed volutpat tempor. Pellentesque consequat auctor accumsan. Integer porta tellus et neque blandit egestas. Proin commodo tortor eget purus accumsan, non rutrum dui pulvinar. Ut lobortis sagittis turpis at tempor.",
+        "mainpara": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor mauris nec velit venenatis, nec sagittis leo molestie. Pellentesque neque massa, tincidunt sit amet sodales quis, ullamcorper at quam. Proin et luctus tortor. Vestibulum pretium condimentum tempor. Nulla pharetra tempus arcu, ut rutrum nisi. Quisque mollis justo vitae nisl tempor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor mauris nec velit venenatis, nec sagittis leo molestie. Pellentesque neque massa, tincidunt sit amet sodales quis, ullamcorper at quam. Proin et luctus tortor. Vestibulum pretium condimentum tempor. Nulla pharetra tempus arcu, ut rutrum nisi. Quisque mollis justo vitae nisl tempor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor mauris nec velit venenatis, nec sagittis leo molestie. Pellentesque neque massa, tincidunt sit amet sodales quis, ullamcorper at quam. Proin et luctus tortor. Vestibulum pretium condimentum tempor. Nulla pharetra tempus arcu, ut rutrum nisi. Quisque mollis justo vitae nisl tempor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor mauris nec velit venenatis, nec sagittis leo molestie. Pellentesque neque massa, tincidunt sit amet sodales quis, ullamcorper at quam. Proin et luctus tortor. Vestibulum pretium condimentum tempor. Nulla pharetra tempus arcu, ut rutrum nisi. Quisque mollis justo vitae nisl tempor,",
+        "images":[
+            {
+                "image": "/Img/company_growth1.jpeg"
+            },
+            {
+                "image": "/Img/company_growth2.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            }
+        ]
+    }
+]

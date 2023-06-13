@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.main{
+    margin-top: 5.5rem;
+}
+.main h1{
+    font-size: 26px;
+    padding: 15px 20px 0px 20px;
+}
+.cardbody{
+    padding: 1.2rem 0 1rem 0;
+}
+.card-img-top {
+    width: auto;
+    height: 250px;
+    border-radius: 6px;
+}
+.htname{
+    display: flex;
+    justify-content: space-between;
+}
+.htname h2{
+    font-size: 1.1rem;
+}
+.htname h2:hover {
+    color: #684d20;
+    text-decoration: none;
+  }
+.htname .span1 {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
+.htname .star {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: rgb(226, 107, 107);
+}
+.htLocation {
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.htLocation .loca1 {
+    padding-left: 0.6rem;
+    font-size: 1rem;
+    color: #999797;
+}
+.htLocation .loca2 {
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    color: #999797;
+}
+.htfood{
+    display: flex;
+    line-height: 10px;
+    padding-top: 10px;
+}
+.htfood .htveg{
+    padding-right: 2rem;
+}
+.htfood p{
+    font-weight: 600;
+    color: #999797;
+}
+.htfood .amt {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-right: 0.5rem;
+}
+
+.pageEdit nav{
+    display: flex;
+    justify-content: center;
+}
+.pageEdit li{
+    margin: 5px;
+}
+.pageEdit a{
+    padding: 0.9rem;
+    border-radius: 6px;
+}
+

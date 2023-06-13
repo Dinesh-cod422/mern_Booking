@@ -1,0 +1,378 @@
+[
+    {
+        "name":"great Indian Mall",
+        "ratings": 4.5,
+        "numofReviews": 12,
+        "images": [
+            {
+                "image": "/Img/marriage.jpeg"
+            },
+            {
+                "image": "/Img/service/event1.jpg"
+            },
+            {
+                "image": "/Img/service/eventmanagemts.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/company_growth1.jpeg"
+            },
+            {
+                "image": "/Img/company_growth2.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/service/trans1.jpg"
+            },
+            {
+                "image": "/Img/service/trans3.jpg"
+            },
+            {
+                "image": "/Img/service/transports.jpg"
+            },
+            {
+                "image": "/Img/service/trans2.webp"
+            },
+            {
+                "image": "/Img/service/trans4.webp"
+            },
+            {
+                "image": "/Img/service/Hallbooking.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking2.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking3.jpeg"
+            },
+            {
+                "image": "/Img/service/hallbooking4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot1.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot2.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoots.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration.jpg"
+            },
+            {
+                "image": "/Img/service/decoration1.jpg"
+            },
+            {
+                "image": "/Img/service/decoration2.jpg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpg"
+            },
+            {
+                "image": "/Img/service/decoration4.jpg"
+            },
+            {
+                "image": "/Img/service/catering.jpg"
+            },
+            {
+                "image": "/Img/service/catering1.jpg"
+            },
+            {
+                "image": "/Img/service/catering2.jpg"
+            },
+            {
+                "image": "/Img/service/catering3.jpg"
+            },
+            {
+                "image": "/Img/service/catering4.jpg"
+            }
+        ],
+        "description": "This is 4 star Hotel in the Area",
+        "location": "chennai-002",
+        "vegPrice": 699,
+        "nonVegPrice":1299
+    },
+    {
+        "name":"Biggest Iron Mall",
+        "ratings": 4.0,
+        "numofReviews": 8,
+        "images": [
+            {
+                "image": "/Img/marriagemall.jpg"
+            },
+            {
+                "image": "/Img/service/event1.jpg"
+            },
+            {
+                "image": "/Img/service/eventmanagemts.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/company_growth1.jpeg"
+            },
+            {
+                "image": "/Img/company_growth2.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/service/trans1.jpg"
+            },
+            {
+                "image": "/Img/service/trans3.jpg"
+            },
+            {
+                "image": "/Img/service/transports.jpg"
+            },
+            {
+                "image": "/Img/service/trans2.webp"
+            },
+            {
+                "image": "/Img/service/trans4.webp"
+            },
+            {
+                "image": "/Img/service/Hallbooking.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking2.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking3.jpeg"
+            },
+            {
+                "image": "/Img/service/hallbooking4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot1.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot2.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoots.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration.jpg"
+            },
+            {
+                "image": "/Img/service/decoration1.jpg"
+            },
+            {
+                "image": "/Img/service/decoration2.jpg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpg"
+            },
+            {
+                "image": "/Img/service/decoration4.jpg"
+            },
+            {
+                "image": "/Img/service/catering.jpg"
+            },
+            {
+                "image": "/Img/service/catering1.jpg"
+            },
+            {
+                "image": "/Img/service/catering2.jpg"
+            },
+            {
+                "image": "/Img/service/catering3.jpg"
+            },
+            {
+                "image": "/Img/service/catering4.jpg"
+            }
+        ],
+        "description": "This is 5 star Hotel in the Area",
+        "location": "chennai, marina-09",
+        "vegPrice": 799,
+        "nonVegPrice":1399
+    },
+    {
+        "name":"Red Shine Palace",
+        "ratings": 3.5,
+        "numofReviews": 2,
+        "images": [
+            {
+                "image": "/Img/marriagemall.jpg"
+            },
+            {
+                "image": "/Img/service/event1.jpg"
+            },
+            {
+                "image": "/Img/service/eventmanagemts.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/company_growth1.jpeg"
+            },
+            {
+                "image": "/Img/company_growth2.jpg"
+            },
+            {
+                "image": "/Img/company_growth3.jpg"
+            },
+            {
+                "image": "/Img/company_growth4.jpg"
+            },
+            {
+                "image": "/Img/company_growth5.jpg"
+            },
+            {
+                "image": "/Img/service/trans1.jpg"
+            },
+            {
+                "image": "/Img/service/trans3.jpg"
+            },
+            {
+                "image": "/Img/service/transports.jpg"
+            },
+            {
+                "image": "/Img/service/trans2.webp"
+            },
+            {
+                "image": "/Img/service/trans4.webp"
+            },
+            {
+                "image": "/Img/service/Hallbooking.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking2.jpg"
+            },
+            {
+                "image": "/Img/service/hallbooking3.jpeg"
+            },
+            {
+                "image": "/Img/service/hallbooking4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot1.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot2.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoot4.jpg"
+            },
+            {
+                "image": "/Img/service/photoshoots.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration.jpg"
+            },
+            {
+                "image": "/Img/service/decoration1.jpg"
+            },
+            {
+                "image": "/Img/service/decoration2.jpg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpeg"
+            },
+            {
+                "image": "/Img/service/decoration3.jpg"
+            },
+            {
+                "image": "/Img/service/decoration4.jpg"
+            },
+            {
+                "image": "/Img/service/catering.jpg"
+            },
+            {
+                "image": "/Img/service/catering1.jpg"
+            },
+            {
+                "image": "/Img/service/catering2.jpg"
+            },
+            {
+                "image": "/Img/service/catering3.jpg"
+            },
+            {
+                "image": "/Img/service/catering4.jpg"
+            }
+        ],
+        "description": "This is 3 star Hotel in the Area",
+        "location": "chennai, Guindy",
+        "vegPrice": 499,
+        "nonVegPrice":999
+    },
+    {
+        "name":"AJ High Hotel",
+        "ratings": 4.5,
+        "numofReviews": 5,
+        "images": [
+            {
+                "image": "/Img/marriagemall.jpg"
+            }
+        ],
+        "description": "This is 7 star Hotel in the Area",
+        "location": "chennai, Porur",
+        "vegPrice": 999,
+        "nonVegPrice":1999
+    },
+    {
+        "name":"Maha Function House",
+        "ratings": 4.0,
+        "numofReviews": 10,
+        "images": [
+            {
+                "image": "/Img/marriagemall.jpg"
+            }
+        ],
+        "description": "This is 7 star Hotel in the Area",
+        "location": "chennai, Anna-Nagar",
+        "vegPrice": 899,
+        "nonVegPrice":1899
+    }
+]
