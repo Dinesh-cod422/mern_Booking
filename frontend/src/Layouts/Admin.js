@@ -5,10 +5,15 @@ import { getAdminData } from '../Actions/AdminActions'
 import { toast } from 'react-toastify'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { writeFile } from 'xlsx';
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
+
+
 
 const Admin = () => {
     const dispatch = useDispatch()
-    const { user = [], error } = useSelector((state) => state.adminDataState)
+    const { user = [], error, loading } = useSelector((state) => state.adminDataState)
     console.log(user)
 
         const [sortOrder, setSortOrder] = useState({
@@ -47,6 +52,36 @@ const Admin = () => {
           return 0;
         });
     
+        const downLoadData = () => {
+            // Prepare the data in the desired format for Excel
+            const data = user.map(({ _id, name, email, mobileNo }) => ({
+              'User Id': _id,
+              'Name': name,
+              'Email': email,
+              'Mobile No': mobileNo,
+            }));
+          
+            // Create a worksheet from the data
+            const worksheet = XLSX.utils.json_to_sheet(data);
+          
+            // Create a workbook and add the worksheet
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, 'Customers');
+          
+            // Generate a file name
+            const fileName = 'user-data.xlsx';
+          
+            // Generate a binary string from the workbook
+            const excelBuffer = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+          
+            // Create a Blob object from the binary string
+            const blob = new Blob([excelBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+          
+            // Save the file using FileSaver.js
+            saveAs(blob, fileName);
+                       
+          
+        }
         
         useEffect(() => {
             if(error){
@@ -59,7 +94,12 @@ const Admin = () => {
         
         return (
             <div className='admin'>
-            <table className="table table-hover">
+              <div className='adHead'>
+                <h1>CUSTOMERS</h1>
+                <p>List of Customers</p>
+                <button onClick={downLoadData}>Download Data</button>
+              </div>
+              {loading? <p>loading...</p> : (<table className="table table-hover table-bordered">
             <thead>
               <tr>
                 <th scope="col">S.No</th>
@@ -108,7 +148,8 @@ const Admin = () => {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table>) }
+           
           </div>
         );
       };

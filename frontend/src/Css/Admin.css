@@ -1,3 +1,22 @@
 .admin{
+    margin: 2rem;
     margin-top: 7rem;
+}
+.adHead p{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.adHead button{
+    padding: 7px 10px ;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 10px;
+}
+.adHead button:hover{
+    padding: 7px 10px ;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
+    background-color: rgb(122, 122, 122);
+}
+.table{
+    margin-top: 2rem;
 }
