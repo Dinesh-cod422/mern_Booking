@@ -1,11 +1,12 @@
 const express = require('express')
-const { RegisterUser, Login, getAdminData } = require('../Controller/auth')
+const { RegisterUser, Login, getAdminData, RegsiterAdmin } = require('../Controller/auth')
 const { getMainDatas, getSingleMainData } = require('../Controller/MainDatas')
 const { Aboutdata, AboutDetailsPage } = require('../Controller/About')
 const { Servicedata, ServiceDetailsPage } = require('../Controller/Service')
 const router = express.Router()
 
 router.route('/register').post(RegisterUser)
+router.route('/regadmin').post(RegsiterAdmin)
 router.route('/login').post(Login)
 router.route('/homeresults').get(getMainDatas)
 router.route('/home/:id').get(getSingleMainData)

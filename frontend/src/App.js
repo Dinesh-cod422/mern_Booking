@@ -16,6 +16,7 @@ import ReviewMain from './Layouts/Main/ReviewMain';
 import ProjectsMain from './Layouts/Main/ProjectsMain';
 import SeatsMain from './Layouts/Main/SeatsMain';
 import Admin from './Layouts/Admin';
+import Login from './Layouts/Login';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/search/:keyword' element={<MantabaSearch />} />
           <Route path='/about/:id' element={<AboutDetails />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/admin' element={<Admin />} />
 
          </Routes>

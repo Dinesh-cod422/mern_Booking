@@ -79,6 +79,9 @@ const Admin = () => {
           
             // Save the file using FileSaver.js
             saveAs(blob, fileName);
+            if(saveAs){
+              alert("File download?")
+            }
                        
           
         }

@@ -103,7 +103,7 @@ const MainDetails = () => {
 
                         <div className="card9">
                         <div className="card92 container">
-                            <p>Portfolio ({singleMaindata.images.length})</p>
+                            <p>Portfolio ({singleMaindata && singleMaindata.images.length})</p>
                             <p>Albums(89)</p>
                             <p>Videos(89)</p>
                         </div>

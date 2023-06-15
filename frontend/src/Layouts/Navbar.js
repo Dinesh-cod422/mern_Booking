@@ -33,6 +33,14 @@ const Navbar = () => {
             <li className="nav-item mx-2">
               <Link to="/contact" className="nav-link active" aria-current="page" href="#">Contact</Link>
             </li>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><Link className="dropdown-item" to={'/Login'}>Login</Link></li>
+              </ul>
+            </li>
             
           </ul>
           
