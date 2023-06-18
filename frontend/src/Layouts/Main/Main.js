@@ -34,7 +34,7 @@ const Main = () => {
       {loading ? <Loader /> :
         <Fragment>
           <div className='main'>
-            <h1 id="products_heading" >Available...Available</h1>
+            <h1 id="products_heading" >Available...</h1>
 
                 <div className="container">
                   <div className="row">
