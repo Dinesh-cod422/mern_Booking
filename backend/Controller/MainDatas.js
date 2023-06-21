@@ -33,3 +33,14 @@ exports.getSingleMainData = async(req, res) => {
         res.status(500).json({Message: "This Page is Server Down"})
     }
 }
+
+exports.getAllData = async(req, res) => {
+    try{
+        const allDatas = await MainData.find()
+        res.status(200).json({ Success: true, allDatas})
+    }
+    catch (error) {
+        console.log(error)
+        res.status(500).json({ Message: "This Page is Server"})
+    }
+}

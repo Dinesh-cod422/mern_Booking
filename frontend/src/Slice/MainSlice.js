@@ -41,12 +41,29 @@ const mainDataSlice =  createSlice({
                 loading: false,
                 error: action.payload
             }
+        }, 
+        allDataReq(state, action){
+            return{
+                loading: true
+            }
+        },
+        allDataSuccess(state, action){
+            return{
+                loading: false,
+                allDatas: action.payload.allDatas
+            }
+        },
+        allDataFail(state, action){
+            return{
+                loading: false,
+                error: action.payload
+            }
         }
     }
 })
 
 const { actions, reducer } = mainDataSlice
 
-export const { mainDataReq, mainDataSuccess, mainDataFail, singleMainFail, singleMainSuccess, singleMainReq } = actions
+export const { mainDataReq, mainDataSuccess, mainDataFail, singleMainFail, singleMainSuccess, singleMainReq, allDataFail, allDataSuccess, allDataReq } = actions
 
 export default reducer

@@ -21,8 +21,8 @@ const About = () => {
     }, [error, dispatch])
   return (
     
-        <div className='container my-5'>
-        <h2 class="cardAbout mb-5">About Us</h2>
+        <div className='container abt1'>
+        <h2 className="cardAbout mb-5">About Us</h2>
            <div className='row'>
             {abData && abData.map(abDatas => (
                 <div className='row justify-content-between'>

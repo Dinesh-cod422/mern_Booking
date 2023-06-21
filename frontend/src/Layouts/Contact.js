@@ -46,7 +46,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='mt-5'>
+    <div className='con1'>
       <h2 class="cardAbout ">Contact Us</h2>
         <div className='container d-flex justify-content-center mt-5'>
          <form className='col-sm-12 col-lg-6' onSubmit={submitHandler}>

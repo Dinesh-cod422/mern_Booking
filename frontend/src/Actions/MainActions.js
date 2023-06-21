@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { mainDataFail, mainDataReq, mainDataSuccess, singleMainFail, singleMainReq, singleMainSuccess } from "../Slice/MainSlice"
+import { allDataFail, allDataReq, allDataSuccess } from '../Slice/allData'
 
 const baseURL = process.env.REACT_APP_BASE_URL
 
@@ -30,5 +31,20 @@ export const getSingleMain = id => async(dispatch) => {
         console.log(data)
     }catch (error){
         dispatch(singleMainFail(error.response.data.Message))
+    }
+}
+
+export const getallData = async(dispatch) => {
+    try{
+        dispatch(allDataReq())
+        let link = `${baseURL}/api/v2/allData`
+
+        
+        const {data} = await axios.get(link)
+        dispatch(allDataSuccess(data))
+        console.log(data)
+    }
+    catch (error) {
+        dispatch(allDataFail(error.response.data.Message))
     }
 }
