@@ -36,7 +36,7 @@ const Search = () => {
         <div style={{ overflow: 'auto', maxHeight: '200px' }}>
           <datalist id="datalistOptions">
             {allDatas && allDatas.map(datass => (
-              <option value={`${datass.name}, ${datass.location}`} />
+              <option value={datass.name} />
             ))}
           </datalist>
         </div>
